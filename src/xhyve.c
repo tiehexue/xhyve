@@ -70,6 +70,10 @@
 #include <xhyve/firmware/kexec.h>
 #include <xhyve/firmware/fbsd.h>
 
+#ifndef VERSION
+#define VERSION "v0.2.0-143-g1f46a3"
+#endif
+
 #define GUEST_NIO_PORT 0x488 /* guest upcalls via i/o port */
 
 #define MB (1024UL * 1024)

@@ -7,82 +7,79 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		005C8E61208536B9009B0C6B /* pci_e82545.c in Sources */ = {isa = PBXBuildFile; fileRef = 005C8E60208536B9009B0C6B /* pci_e82545.c */; };
-		00D3D5A6207C662200DDCDF6 /* bootrom.c in Sources */ = {isa = PBXBuildFile; fileRef = 00D3D5A5207C662200DDCDF6 /* bootrom.c */; };
-		00D3D5AD207C828900DDCDF6 /* bhyvegc.c in Sources */ = {isa = PBXBuildFile; fileRef = 00D3D5AC207C828900DDCDF6 /* bhyvegc.c */; };
-		00D3D5AF207C829600DDCDF6 /* console.c in Sources */ = {isa = PBXBuildFile; fileRef = 00D3D5AE207C829600DDCDF6 /* console.c */; };
-		00D3D5B1207C82A200DDCDF6 /* pci_fbuf.c in Sources */ = {isa = PBXBuildFile; fileRef = 00D3D5B0207C82A200DDCDF6 /* pci_fbuf.c */; };
-		00D3D5B3207C82AB00DDCDF6 /* rfb.c in Sources */ = {isa = PBXBuildFile; fileRef = 00D3D5B2207C82AB00DDCDF6 /* rfb.c */; };
-		00D3D5B5207C82B300DDCDF6 /* vga.c in Sources */ = {isa = PBXBuildFile; fileRef = 00D3D5B4207C82B200DDCDF6 /* vga.c */; };
-		00D3D5B8207EAFF900DDCDF6 /* sockstream.c in Sources */ = {isa = PBXBuildFile; fileRef = 00D3D5B7207EAFF900DDCDF6 /* sockstream.c */; };
-		00D3D5BB2080044200DDCDF6 /* ps2kbd.c in Sources */ = {isa = PBXBuildFile; fileRef = 00D3D5B92080044100DDCDF6 /* ps2kbd.c */; };
-		00D3D5BC2080044200DDCDF6 /* ps2mouse.c in Sources */ = {isa = PBXBuildFile; fileRef = 00D3D5BA2080044200DDCDF6 /* ps2mouse.c */; };
-		3F3FF9E91BF7C63A004C89A1 /* Hypervisor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F3FF9E81BF7C63A004C89A1 /* Hypervisor.framework */; };
-		3F3FFA5D1BF7C6A7004C89A1 /* acpitbl.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FFA1F1BF7C6A7004C89A1 /* acpitbl.c */; };
-		3F3FFA5E1BF7C6A7004C89A1 /* atkbdc.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FFA201BF7C6A7004C89A1 /* atkbdc.c */; };
-		3F3FFA5F1BF7C6A7004C89A1 /* block_if.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FFA211BF7C6A7004C89A1 /* block_if.c */; };
-		3F3FFA601BF7C6A7004C89A1 /* consport.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FFA221BF7C6A7004C89A1 /* consport.c */; };
-		3F3FFA611BF7C6A7004C89A1 /* dbgport.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FFA231BF7C6A7004C89A1 /* dbgport.c */; };
-		3F3FFA621BF7C6A7004C89A1 /* fbsd.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FFA261BF7C6A7004C89A1 /* fbsd.c */; };
-		3F3FFA631BF7C6A7004C89A1 /* kexec.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FFA271BF7C6A7004C89A1 /* kexec.c */; };
-		3F3FFA641BF7C6A7004C89A1 /* inout.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FFA281BF7C6A7004C89A1 /* inout.c */; };
-		3F3FFA651BF7C6A7004C89A1 /* ioapic.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FFA291BF7C6A7004C89A1 /* ioapic.c */; };
-		3F3FFA671BF7C6A7004C89A1 /* mem.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FFA2B1BF7C6A7004C89A1 /* mem.c */; };
-		3F3FFA681BF7C6A7004C89A1 /* mevent.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FFA2C1BF7C6A7004C89A1 /* mevent.c */; };
-		3F3FFA6A1BF7C6A7004C89A1 /* mptbl.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FFA2E1BF7C6A7004C89A1 /* mptbl.c */; };
-		3F3FFA6B1BF7C6A7004C89A1 /* pci_ahci.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FFA2F1BF7C6A7004C89A1 /* pci_ahci.c */; };
-		3F3FFA6C1BF7C6A7004C89A1 /* pci_emul.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FFA301BF7C6A7004C89A1 /* pci_emul.c */; };
-		3F3FFA6D1BF7C6A7004C89A1 /* pci_hostbridge.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FFA311BF7C6A7004C89A1 /* pci_hostbridge.c */; };
-		3F3FFA6E1BF7C6A7004C89A1 /* pci_irq.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FFA321BF7C6A7004C89A1 /* pci_irq.c */; };
-		3F3FFA6F1BF7C6A7004C89A1 /* pci_lpc.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FFA331BF7C6A7004C89A1 /* pci_lpc.c */; };
-		3F3FFA701BF7C6A7004C89A1 /* pci_uart.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FFA341BF7C6A7004C89A1 /* pci_uart.c */; };
-		3F3FFA711BF7C6A7004C89A1 /* pci_virtio_block.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FFA351BF7C6A7004C89A1 /* pci_virtio_block.c */; };
-		3F3FFA721BF7C6A7004C89A1 /* pci_virtio_net_tap.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FFA361BF7C6A7004C89A1 /* pci_virtio_net_tap.c */; };
-		3F3FFA731BF7C6A7004C89A1 /* pci_virtio_net_vmnet.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FFA371BF7C6A7004C89A1 /* pci_virtio_net_vmnet.c */; };
-		3F3FFA741BF7C6A7004C89A1 /* pci_virtio_rnd.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FFA381BF7C6A7004C89A1 /* pci_virtio_rnd.c */; };
-		3F3FFA751BF7C6A7004C89A1 /* pm.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FFA391BF7C6A7004C89A1 /* pm.c */; };
-		3F3FFA761BF7C6A7004C89A1 /* post.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FFA3A1BF7C6A7004C89A1 /* post.c */; };
-		3F3FFA771BF7C6A7004C89A1 /* rtc.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FFA3B1BF7C6A7004C89A1 /* rtc.c */; };
-		3F3FFA781BF7C6A7004C89A1 /* smbiostbl.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FFA3C1BF7C6A7004C89A1 /* smbiostbl.c */; };
-		3F3FFA791BF7C6A7004C89A1 /* task_switch.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FFA3D1BF7C6A7004C89A1 /* task_switch.c */; };
-		3F3FFA7A1BF7C6A7004C89A1 /* uart_emul.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FFA3E1BF7C6A7004C89A1 /* uart_emul.c */; };
-		3F3FFA7B1BF7C6A7004C89A1 /* virtio.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FFA3F1BF7C6A7004C89A1 /* virtio.c */; };
-		3F3FFA7C1BF7C6A7004C89A1 /* vmcs.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FFA421BF7C6A7004C89A1 /* vmcs.c */; };
-		3F3FFA7D1BF7C6A7004C89A1 /* vmx.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FFA431BF7C6A7004C89A1 /* vmx.c */; };
-		3F3FFA7E1BF7C6A7004C89A1 /* vmx_msr.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FFA441BF7C6A7004C89A1 /* vmx_msr.c */; };
-		3F3FFA7F1BF7C6A7004C89A1 /* vatpic.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FFA461BF7C6A7004C89A1 /* vatpic.c */; };
-		3F3FFA801BF7C6A7004C89A1 /* vatpit.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FFA471BF7C6A7004C89A1 /* vatpit.c */; };
-		3F3FFA811BF7C6A7004C89A1 /* vhpet.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FFA481BF7C6A7004C89A1 /* vhpet.c */; };
-		3F3FFA821BF7C6A7004C89A1 /* vioapic.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FFA491BF7C6A7004C89A1 /* vioapic.c */; };
-		3F3FFA831BF7C6A7004C89A1 /* vlapic.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FFA4A1BF7C6A7004C89A1 /* vlapic.c */; };
-		3F3FFA841BF7C6A7004C89A1 /* vpmtmr.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FFA4B1BF7C6A7004C89A1 /* vpmtmr.c */; };
-		3F3FFA851BF7C6A7004C89A1 /* vrtc.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FFA4C1BF7C6A7004C89A1 /* vrtc.c */; };
-		3F3FFA861BF7C6A7004C89A1 /* vmm.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FFA4D1BF7C6A7004C89A1 /* vmm.c */; };
-		3F3FFA871BF7C6A7004C89A1 /* vmm_api.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FFA4E1BF7C6A7004C89A1 /* vmm_api.c */; };
-		3F3FFA881BF7C6A7004C89A1 /* vmm_callout.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FFA4F1BF7C6A7004C89A1 /* vmm_callout.c */; };
-		3F3FFA891BF7C6A7004C89A1 /* vmm_host.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FFA501BF7C6A7004C89A1 /* vmm_host.c */; };
-		3F3FFA8A1BF7C6A7004C89A1 /* vmm_instruction_emul.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FFA511BF7C6A7004C89A1 /* vmm_instruction_emul.c */; };
-		3F3FFA8B1BF7C6A7004C89A1 /* vmm_ioport.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FFA521BF7C6A7004C89A1 /* vmm_ioport.c */; };
-		3F3FFA8C1BF7C6A7004C89A1 /* vmm_lapic.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FFA531BF7C6A7004C89A1 /* vmm_lapic.c */; };
-		3F3FFA8D1BF7C6A7004C89A1 /* vmm_mem.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FFA541BF7C6A7004C89A1 /* vmm_mem.c */; };
-		3F3FFA8E1BF7C6A7004C89A1 /* vmm_stat.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FFA551BF7C6A7004C89A1 /* vmm_stat.c */; };
-		3F3FFA8F1BF7C6A7004C89A1 /* vmm_util.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FFA561BF7C6A7004C89A1 /* vmm_util.c */; };
-		3F3FFA901BF7C6A7004C89A1 /* x86.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FFA571BF7C6A7004C89A1 /* x86.c */; };
-		3F3FFA911BF7C6A7004C89A1 /* xhyve.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FFA5A1BF7C6A7004C89A1 /* xhyve.c */; };
-		3F3FFA921BF7C6A7004C89A1 /* xmsr.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FFA5B1BF7C6A7004C89A1 /* xmsr.c */; };
-		3F3FFA971BF7CC0E004C89A1 /* xhyve.1 in Install Man Pages */ = {isa = PBXBuildFile; fileRef = 3F3FF9E41BF7C5DC004C89A1 /* xhyve.1 */; };
+		15F2B96523B3498000170676 /* fbsd.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FFA261BF7C6A7004C89A1 /* fbsd.c */; };
+		15F2B96623B3498000170676 /* kexec.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FFA271BF7C6A7004C89A1 /* kexec.c */; };
+		15F2B96723B3498000170676 /* vmcs.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FFA421BF7C6A7004C89A1 /* vmcs.c */; };
+		15F2B96823B3498000170676 /* vmx.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FFA431BF7C6A7004C89A1 /* vmx.c */; };
+		15F2B96923B3498000170676 /* vmx_msr.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FFA441BF7C6A7004C89A1 /* vmx_msr.c */; };
+		15F2B96A23B3498000170676 /* vatpic.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FFA461BF7C6A7004C89A1 /* vatpic.c */; };
+		15F2B96B23B3498000170676 /* vatpit.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FFA471BF7C6A7004C89A1 /* vatpit.c */; };
+		15F2B96C23B3498000170676 /* vhpet.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FFA481BF7C6A7004C89A1 /* vhpet.c */; };
+		15F2B96D23B3498000170676 /* vioapic.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FFA491BF7C6A7004C89A1 /* vioapic.c */; };
+		15F2B96E23B3498000170676 /* vlapic.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FFA4A1BF7C6A7004C89A1 /* vlapic.c */; };
+		15F2B96F23B3498000170676 /* vpmtmr.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FFA4B1BF7C6A7004C89A1 /* vpmtmr.c */; };
+		15F2B97023B3498000170676 /* vrtc.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FFA4C1BF7C6A7004C89A1 /* vrtc.c */; };
+		15F2B97123B3499400170676 /* vmm.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FFA4D1BF7C6A7004C89A1 /* vmm.c */; };
+		15F2B97223B3499400170676 /* vmm_api.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FFA4E1BF7C6A7004C89A1 /* vmm_api.c */; };
+		15F2B97323B3499400170676 /* vmm_callout.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FFA4F1BF7C6A7004C89A1 /* vmm_callout.c */; };
+		15F2B97423B3499400170676 /* vmm_host.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FFA501BF7C6A7004C89A1 /* vmm_host.c */; };
+		15F2B97523B3499400170676 /* vmm_instruction_emul.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FFA511BF7C6A7004C89A1 /* vmm_instruction_emul.c */; };
+		15F2B97623B3499400170676 /* vmm_ioport.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FFA521BF7C6A7004C89A1 /* vmm_ioport.c */; };
+		15F2B97723B3499400170676 /* vmm_lapic.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FFA531BF7C6A7004C89A1 /* vmm_lapic.c */; };
+		15F2B97823B3499400170676 /* vmm_mem.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FFA541BF7C6A7004C89A1 /* vmm_mem.c */; };
+		15F2B97923B3499400170676 /* vmm_stat.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FFA551BF7C6A7004C89A1 /* vmm_stat.c */; };
+		15F2B97A23B3499400170676 /* vmm_util.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FFA561BF7C6A7004C89A1 /* vmm_util.c */; };
+		15F2B97B23B3499400170676 /* x86.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FFA571BF7C6A7004C89A1 /* x86.c */; };
+		15F2B97D23B3499400170676 /* acpitbl.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FFA1F1BF7C6A7004C89A1 /* acpitbl.c */; };
+		15F2B97E23B3499400170676 /* atkbdc.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FFA201BF7C6A7004C89A1 /* atkbdc.c */; };
+		15F2B97F23B3499400170676 /* bhyvegc.c in Sources */ = {isa = PBXBuildFile; fileRef = 00D3D5AC207C828900DDCDF6 /* bhyvegc.c */; };
+		15F2B98023B3499400170676 /* block_if.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FFA211BF7C6A7004C89A1 /* block_if.c */; };
+		15F2B98123B3499400170676 /* bootrom.c in Sources */ = {isa = PBXBuildFile; fileRef = 00D3D5A5207C662200DDCDF6 /* bootrom.c */; };
+		15F2B98223B3499400170676 /* console.c in Sources */ = {isa = PBXBuildFile; fileRef = 00D3D5AE207C829600DDCDF6 /* console.c */; };
+		15F2B98323B3499400170676 /* consport.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FFA221BF7C6A7004C89A1 /* consport.c */; };
+		15F2B98423B3499400170676 /* dbgport.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FFA231BF7C6A7004C89A1 /* dbgport.c */; };
+		15F2B98523B3499400170676 /* dsdt.asl in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FFA241BF7C6A7004C89A1 /* dsdt.asl */; };
+		15F2B98623B3499400170676 /* inout.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FFA281BF7C6A7004C89A1 /* inout.c */; };
+		15F2B98723B3499400170676 /* ioapic.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FFA291BF7C6A7004C89A1 /* ioapic.c */; };
+		15F2B98823B3499400170676 /* mem.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FFA2B1BF7C6A7004C89A1 /* mem.c */; };
+		15F2B98923B3499400170676 /* mevent.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FFA2C1BF7C6A7004C89A1 /* mevent.c */; };
+		15F2B98B23B3499400170676 /* mptbl.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FFA2E1BF7C6A7004C89A1 /* mptbl.c */; };
+		15F2B98C23B3499400170676 /* pci_ahci.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FFA2F1BF7C6A7004C89A1 /* pci_ahci.c */; };
+		15F2B98D23B3499400170676 /* pci_e82545.c in Sources */ = {isa = PBXBuildFile; fileRef = 005C8E60208536B9009B0C6B /* pci_e82545.c */; };
+		15F2B98E23B3499400170676 /* pci_emul.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FFA301BF7C6A7004C89A1 /* pci_emul.c */; };
+		15F2B98F23B3499400170676 /* pci_fbuf.c in Sources */ = {isa = PBXBuildFile; fileRef = 00D3D5B0207C82A200DDCDF6 /* pci_fbuf.c */; };
+		15F2B99023B3499400170676 /* pci_hostbridge.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FFA311BF7C6A7004C89A1 /* pci_hostbridge.c */; };
+		15F2B99123B3499400170676 /* pci_irq.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FFA321BF7C6A7004C89A1 /* pci_irq.c */; };
+		15F2B99223B3499400170676 /* pci_lpc.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FFA331BF7C6A7004C89A1 /* pci_lpc.c */; };
+		15F2B99323B3499400170676 /* pci_uart.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FFA341BF7C6A7004C89A1 /* pci_uart.c */; };
+		15F2B99423B3499400170676 /* pci_virtio_block.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FFA351BF7C6A7004C89A1 /* pci_virtio_block.c */; };
+		15F2B99523B3499400170676 /* pci_virtio_net_tap.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FFA361BF7C6A7004C89A1 /* pci_virtio_net_tap.c */; };
+		15F2B99623B3499400170676 /* pci_virtio_net_vmnet.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FFA371BF7C6A7004C89A1 /* pci_virtio_net_vmnet.c */; };
+		15F2B99723B3499400170676 /* pci_virtio_rnd.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FFA381BF7C6A7004C89A1 /* pci_virtio_rnd.c */; };
+		15F2B99823B3499400170676 /* pm.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FFA391BF7C6A7004C89A1 /* pm.c */; };
+		15F2B99923B3499400170676 /* post.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FFA3A1BF7C6A7004C89A1 /* post.c */; };
+		15F2B99A23B3499400170676 /* ps2kbd.c in Sources */ = {isa = PBXBuildFile; fileRef = 00D3D5B92080044100DDCDF6 /* ps2kbd.c */; };
+		15F2B99B23B3499400170676 /* ps2mouse.c in Sources */ = {isa = PBXBuildFile; fileRef = 00D3D5BA2080044200DDCDF6 /* ps2mouse.c */; };
+		15F2B99C23B3499400170676 /* rfb.c in Sources */ = {isa = PBXBuildFile; fileRef = 00D3D5B2207C82AB00DDCDF6 /* rfb.c */; };
+		15F2B99D23B3499400170676 /* rtc.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FFA3B1BF7C6A7004C89A1 /* rtc.c */; };
+		15F2B99E23B3499400170676 /* smbiostbl.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FFA3C1BF7C6A7004C89A1 /* smbiostbl.c */; };
+		15F2B99F23B3499400170676 /* sockstream.c in Sources */ = {isa = PBXBuildFile; fileRef = 00D3D5B7207EAFF900DDCDF6 /* sockstream.c */; };
+		15F2B9A023B3499400170676 /* task_switch.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FFA3D1BF7C6A7004C89A1 /* task_switch.c */; };
+		15F2B9A123B3499400170676 /* uart_emul.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FFA3E1BF7C6A7004C89A1 /* uart_emul.c */; };
+		15F2B9A223B3499400170676 /* vga.c in Sources */ = {isa = PBXBuildFile; fileRef = 00D3D5B4207C82B200DDCDF6 /* vga.c */; };
+		15F2B9A323B3499400170676 /* virtio.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FFA3F1BF7C6A7004C89A1 /* virtio.c */; };
+		15F2B9A423B3499400170676 /* xhyve.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FFA5A1BF7C6A7004C89A1 /* xhyve.c */; };
+		15F2B9A523B3499400170676 /* xmsr.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F3FFA5B1BF7C6A7004C89A1 /* xmsr.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		3F1934901BF7C0D40099CC46 /* Install Man Pages */ = {
+		15F2B95B23B3495100170676 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
-			dstPath = "$(MAN_INSTALL_PATH)/man1";
+			dstPath = /usr/share/man/man1/;
 			dstSubfolderSpec = 0;
 			files = (
-				3F3FFA971BF7CC0E004C89A1 /* xhyve.1 in Install Man Pages */,
 			);
-			name = "Install Man Pages";
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -109,14 +106,7 @@
 		00D3D5BD2080046200DDCDF6 /* ps2mouse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ps2mouse.h; sourceTree = "<group>"; };
 		00D3D5BE2080046200DDCDF6 /* ps2kbd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ps2kbd.h; sourceTree = "<group>"; };
 		00D3D5BF208004CB00DDCDF6 /* atkbdc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = atkbdc.h; sourceTree = "<group>"; };
-		3F1934921BF7C0D40099CC46 /* xhyve */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = xhyve; sourceTree = BUILT_PRODUCTS_DIR; };
-		3F3FF9E01BF7C5D5004C89A1 /* common.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = common.xcconfig; sourceTree = "<group>"; };
-		3F3FF9E11BF7C5D5004C89A1 /* common_asan.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = common_asan.xcconfig; sourceTree = "<group>"; };
-		3F3FF9E21BF7C5D5004C89A1 /* common_debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = common_debug.xcconfig; sourceTree = "<group>"; };
-		3F3FF9E31BF7C5D5004C89A1 /* xhyve.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = xhyve.xcconfig; sourceTree = "<group>"; };
-		3F3FF9E41BF7C5DC004C89A1 /* xhyve.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = xhyve.1; sourceTree = SOURCE_ROOT; };
-		3F3FF9E61BF7C5F9004C89A1 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		3F3FF9E81BF7C63A004C89A1 /* Hypervisor.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Hypervisor.framework; path = /System/Library/Frameworks/Hypervisor.framework; sourceTree = SDKROOT; };
+		15F2B95D23B3495100170676 /* xhyve */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = xhyve; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F3FFA1E1BF7C6A7004C89A1 /* acpi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = acpi.c; sourceTree = "<group>"; };
 		3F3FFA1F1BF7C6A7004C89A1 /* acpitbl.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = acpitbl.c; sourceTree = "<group>"; };
 		3F3FFA201BF7C6A7004C89A1 /* atkbdc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = atkbdc.c; sourceTree = "<group>"; };
@@ -170,11 +160,8 @@
 		3F3FFA551BF7C6A7004C89A1 /* vmm_stat.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = vmm_stat.c; sourceTree = "<group>"; };
 		3F3FFA561BF7C6A7004C89A1 /* vmm_util.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = vmm_util.c; sourceTree = "<group>"; };
 		3F3FFA571BF7C6A7004C89A1 /* x86.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = x86.c; sourceTree = "<group>"; };
-		3F3FFA581BF7C6A7004C89A1 /* xhyve-entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "xhyve-entitlements.plist"; path = "src/xhyve-entitlements.plist"; sourceTree = "<group>"; };
-		3F3FFA591BF7C6A7004C89A1 /* xhyve-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "xhyve-Info.plist"; path = "src/xhyve-Info.plist"; sourceTree = "<group>"; };
 		3F3FFA5A1BF7C6A7004C89A1 /* xhyve.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xhyve.c; sourceTree = "<group>"; };
 		3F3FFA5B1BF7C6A7004C89A1 /* xmsr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xmsr.c; sourceTree = "<group>"; };
-		3F3FFA961BF7CBFF004C89A1 /* version.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = version.sh; sourceTree = "<group>"; };
 		3FB6515C1BF7CD4500ED886F /* acpi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = acpi.h; sourceTree = "<group>"; };
 		3FB6515D1BF7CD4500ED886F /* ahci.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ahci.h; sourceTree = "<group>"; };
 		3FB6515E1BF7CD4500ED886F /* block_if.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = block_if.h; sourceTree = "<group>"; };
@@ -243,74 +230,39 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3F19348F1BF7C0D40099CC46 /* Frameworks */ = {
+		15F2B95A23B3495100170676 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F3FF9E91BF7C63A004C89A1 /* Hypervisor.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		15F2B90723B348A400170676 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		3F1934891BF7C0D40099CC46 = {
 			isa = PBXGroup;
 			children = (
 				3FB6515A1BF7CD4500ED886F /* include */,
 				3F3FFA1D1BF7C6A7004C89A1 /* src */,
-				3F3FF9E51BF7C5ED004C89A1 /* Documentation */,
-				3F3FF9E71BF7C5FF004C89A1 /* Build Support */,
 				3F1934931BF7C0D40099CC46 /* Products */,
+				15F2B90723B348A400170676 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		3F1934931BF7C0D40099CC46 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3F1934921BF7C0D40099CC46 /* xhyve */,
+				15F2B95D23B3495100170676 /* xhyve */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		3F3FF9DF1BF7C5D5004C89A1 /* xcconfigs */ = {
-			isa = PBXGroup;
-			children = (
-				3F3FFA951BF7CBFF004C89A1 /* xcscripts */,
-				3F3FF9E01BF7C5D5004C89A1 /* common.xcconfig */,
-				3F3FF9E11BF7C5D5004C89A1 /* common_asan.xcconfig */,
-				3F3FF9E21BF7C5D5004C89A1 /* common_debug.xcconfig */,
-				3F3FF9E31BF7C5D5004C89A1 /* xhyve.xcconfig */,
-			);
-			path = xcconfigs;
-			sourceTree = "<group>";
-		};
-		3F3FF9E51BF7C5ED004C89A1 /* Documentation */ = {
-			isa = PBXGroup;
-			children = (
-				3F3FF9E61BF7C5F9004C89A1 /* README.md */,
-				3F3FF9E41BF7C5DC004C89A1 /* xhyve.1 */,
-			);
-			name = Documentation;
-			sourceTree = "<group>";
-		};
-		3F3FF9E71BF7C5FF004C89A1 /* Build Support */ = {
-			isa = PBXGroup;
-			children = (
-				3F3FFA581BF7C6A7004C89A1 /* xhyve-entitlements.plist */,
-				3F3FFA591BF7C6A7004C89A1 /* xhyve-Info.plist */,
-				3F3FF9EA1BF7C64C004C89A1 /* Linked Frameworks */,
-				3F3FF9DF1BF7C5D5004C89A1 /* xcconfigs */,
-			);
-			name = "Build Support";
-			sourceTree = "<group>";
-		};
-		3F3FF9EA1BF7C64C004C89A1 /* Linked Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				3F3FF9E81BF7C63A004C89A1 /* Hypervisor.framework */,
-			);
-			name = "Linked Frameworks";
 			sourceTree = "<group>";
 		};
 		3F3FFA1D1BF7C6A7004C89A1 /* src */ = {
@@ -416,14 +368,6 @@
 			);
 			path = io;
 			sourceTree = "<group>";
-		};
-		3F3FFA951BF7CBFF004C89A1 /* xcscripts */ = {
-			isa = PBXGroup;
-			children = (
-				3F3FFA961BF7CBFF004C89A1 /* version.sh */,
-			);
-			path = xcscripts;
-			sourceTree = SOURCE_ROOT;
 		};
 		3FB6515A1BF7CD4500ED886F /* include */ = {
 			isa = PBXGroup;
@@ -559,22 +503,21 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3F1934911BF7C0D40099CC46 /* xhyve */ = {
+		15F2B95C23B3495100170676 /* xhyve */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3F1934991BF7C0D40099CC46 /* Build configuration list for PBXNativeTarget "xhyve" */;
+			buildConfigurationList = 15F2B96123B3495100170676 /* Build configuration list for PBXNativeTarget "xhyve" */;
 			buildPhases = (
-				3F3FFA981BF7CC1F004C89A1 /* xhyve-version.h */,
-				3F19348E1BF7C0D40099CC46 /* Sources */,
-				3F19348F1BF7C0D40099CC46 /* Frameworks */,
-				3F1934901BF7C0D40099CC46 /* Install Man Pages */,
+				15F2B95923B3495100170676 /* Sources */,
+				15F2B95A23B3495100170676 /* Frameworks */,
+				15F2B95B23B3495100170676 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = xhyve;
-			productName = xhyve;
-			productReference = 3F1934921BF7C0D40099CC46 /* xhyve */;
+			productName = work;
+			productReference = 15F2B95D23B3495100170676 /* xhyve */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -585,10 +528,11 @@
 			attributes = {
 				DefaultBuildSystemTypeForWorkspace = Latest;
 				LastUpgradeCheck = 1000;
-				ORGANIZATIONNAME = "xhyve";
+				ORGANIZATIONNAME = xhyve;
 				TargetAttributes = {
-					3F1934911BF7C0D40099CC46 = {
-						CreatedOnToolsVersion = 7.3;
+					15F2B95C23B3495100170676 = {
+						CreatedOnToolsVersion = 11.3;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -597,6 +541,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 3F1934891BF7C0D40099CC46;
@@ -604,165 +549,291 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3F1934911BF7C0D40099CC46 /* xhyve */,
+				15F2B95C23B3495100170676 /* xhyve */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		3F3FFA981BF7CC1F004C89A1 /* xhyve-version.h */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "xhyve-version.h";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/bash;
-			shellScript = "${SRCROOT}/xcscripts/version.sh";
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		3F19348E1BF7C0D40099CC46 /* Sources */ = {
+		15F2B95923B3495100170676 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F3FFA751BF7C6A7004C89A1 /* pm.c in Sources */,
-				3F3FFA721BF7C6A7004C89A1 /* pci_virtio_net_tap.c in Sources */,
-				3F3FFA6F1BF7C6A7004C89A1 /* pci_lpc.c in Sources */,
-				00D3D5BB2080044200DDCDF6 /* ps2kbd.c in Sources */,
-				3F3FFA7C1BF7C6A7004C89A1 /* vmcs.c in Sources */,
-				3F3FFA851BF7C6A7004C89A1 /* vrtc.c in Sources */,
-				3F3FFA921BF7C6A7004C89A1 /* xmsr.c in Sources */,
-				3F3FFA7A1BF7C6A7004C89A1 /* uart_emul.c in Sources */,
-				3F3FFA8A1BF7C6A7004C89A1 /* vmm_instruction_emul.c in Sources */,
-				3F3FFA841BF7C6A7004C89A1 /* vpmtmr.c in Sources */,
-				3F3FFA801BF7C6A7004C89A1 /* vatpit.c in Sources */,
-				3F3FFA901BF7C6A7004C89A1 /* x86.c in Sources */,
-				3F3FFA631BF7C6A7004C89A1 /* kexec.c in Sources */,
-				3F3FFA5F1BF7C6A7004C89A1 /* block_if.c in Sources */,
-				00D3D5AF207C829600DDCDF6 /* console.c in Sources */,
-				3F3FFA8E1BF7C6A7004C89A1 /* vmm_stat.c in Sources */,
-				3F3FFA7F1BF7C6A7004C89A1 /* vatpic.c in Sources */,
-				3F3FFA651BF7C6A7004C89A1 /* ioapic.c in Sources */,
-				3F3FFA781BF7C6A7004C89A1 /* smbiostbl.c in Sources */,
-				3F3FFA621BF7C6A7004C89A1 /* fbsd.c in Sources */,
-				3F3FFA5E1BF7C6A7004C89A1 /* atkbdc.c in Sources */,
-				3F3FFA6C1BF7C6A7004C89A1 /* pci_emul.c in Sources */,
-				3F3FFA701BF7C6A7004C89A1 /* pci_uart.c in Sources */,
-				3F3FFA7E1BF7C6A7004C89A1 /* vmx_msr.c in Sources */,
-				3F3FFA5D1BF7C6A7004C89A1 /* acpitbl.c in Sources */,
-				00D3D5B1207C82A200DDCDF6 /* pci_fbuf.c in Sources */,
-				00D3D5B8207EAFF900DDCDF6 /* sockstream.c in Sources */,
-				3F3FFA641BF7C6A7004C89A1 /* inout.c in Sources */,
-				3F3FFA771BF7C6A7004C89A1 /* rtc.c in Sources */,
-				3F3FFA8B1BF7C6A7004C89A1 /* vmm_ioport.c in Sources */,
-				3F3FFA671BF7C6A7004C89A1 /* mem.c in Sources */,
-				005C8E61208536B9009B0C6B /* pci_e82545.c in Sources */,
-				3F3FFA8F1BF7C6A7004C89A1 /* vmm_util.c in Sources */,
-				3F3FFA791BF7C6A7004C89A1 /* task_switch.c in Sources */,
-				3F3FFA6B1BF7C6A7004C89A1 /* pci_ahci.c in Sources */,
-				3F3FFA6E1BF7C6A7004C89A1 /* pci_irq.c in Sources */,
-				3F3FFA8D1BF7C6A7004C89A1 /* vmm_mem.c in Sources */,
-				3F3FFA7D1BF7C6A7004C89A1 /* vmx.c in Sources */,
-				3F3FFA7B1BF7C6A7004C89A1 /* virtio.c in Sources */,
-				3F3FFA611BF7C6A7004C89A1 /* dbgport.c in Sources */,
-				00D3D5AD207C828900DDCDF6 /* bhyvegc.c in Sources */,
-				3F3FFA6A1BF7C6A7004C89A1 /* mptbl.c in Sources */,
-				3F3FFA6D1BF7C6A7004C89A1 /* pci_hostbridge.c in Sources */,
-				00D3D5A6207C662200DDCDF6 /* bootrom.c in Sources */,
-				3F3FFA881BF7C6A7004C89A1 /* vmm_callout.c in Sources */,
-				3F3FFA811BF7C6A7004C89A1 /* vhpet.c in Sources */,
-				3F3FFA861BF7C6A7004C89A1 /* vmm.c in Sources */,
-				3F3FFA911BF7C6A7004C89A1 /* xhyve.c in Sources */,
-				3F3FFA831BF7C6A7004C89A1 /* vlapic.c in Sources */,
-				3F3FFA741BF7C6A7004C89A1 /* pci_virtio_rnd.c in Sources */,
-				3F3FFA761BF7C6A7004C89A1 /* post.c in Sources */,
-				00D3D5B5207C82B300DDCDF6 /* vga.c in Sources */,
-				3F3FFA601BF7C6A7004C89A1 /* consport.c in Sources */,
-				3F3FFA681BF7C6A7004C89A1 /* mevent.c in Sources */,
-				00D3D5BC2080044200DDCDF6 /* ps2mouse.c in Sources */,
-				3F3FFA8C1BF7C6A7004C89A1 /* vmm_lapic.c in Sources */,
-				3F3FFA731BF7C6A7004C89A1 /* pci_virtio_net_vmnet.c in Sources */,
-				3F3FFA891BF7C6A7004C89A1 /* vmm_host.c in Sources */,
-				3F3FFA821BF7C6A7004C89A1 /* vioapic.c in Sources */,
-				00D3D5B3207C82AB00DDCDF6 /* rfb.c in Sources */,
-				3F3FFA711BF7C6A7004C89A1 /* pci_virtio_block.c in Sources */,
-				3F3FFA871BF7C6A7004C89A1 /* vmm_api.c in Sources */,
+				15F2B97123B3499400170676 /* vmm.c in Sources */,
+				15F2B97223B3499400170676 /* vmm_api.c in Sources */,
+				15F2B97323B3499400170676 /* vmm_callout.c in Sources */,
+				15F2B97423B3499400170676 /* vmm_host.c in Sources */,
+				15F2B97523B3499400170676 /* vmm_instruction_emul.c in Sources */,
+				15F2B97623B3499400170676 /* vmm_ioport.c in Sources */,
+				15F2B97723B3499400170676 /* vmm_lapic.c in Sources */,
+				15F2B97823B3499400170676 /* vmm_mem.c in Sources */,
+				15F2B97923B3499400170676 /* vmm_stat.c in Sources */,
+				15F2B97A23B3499400170676 /* vmm_util.c in Sources */,
+				15F2B97B23B3499400170676 /* x86.c in Sources */,
+				15F2B97D23B3499400170676 /* acpitbl.c in Sources */,
+				15F2B97E23B3499400170676 /* atkbdc.c in Sources */,
+				15F2B97F23B3499400170676 /* bhyvegc.c in Sources */,
+				15F2B98023B3499400170676 /* block_if.c in Sources */,
+				15F2B98123B3499400170676 /* bootrom.c in Sources */,
+				15F2B98223B3499400170676 /* console.c in Sources */,
+				15F2B98323B3499400170676 /* consport.c in Sources */,
+				15F2B98423B3499400170676 /* dbgport.c in Sources */,
+				15F2B98523B3499400170676 /* dsdt.asl in Sources */,
+				15F2B98623B3499400170676 /* inout.c in Sources */,
+				15F2B98723B3499400170676 /* ioapic.c in Sources */,
+				15F2B98823B3499400170676 /* mem.c in Sources */,
+				15F2B98923B3499400170676 /* mevent.c in Sources */,
+				15F2B98B23B3499400170676 /* mptbl.c in Sources */,
+				15F2B98C23B3499400170676 /* pci_ahci.c in Sources */,
+				15F2B98D23B3499400170676 /* pci_e82545.c in Sources */,
+				15F2B98E23B3499400170676 /* pci_emul.c in Sources */,
+				15F2B98F23B3499400170676 /* pci_fbuf.c in Sources */,
+				15F2B99023B3499400170676 /* pci_hostbridge.c in Sources */,
+				15F2B99123B3499400170676 /* pci_irq.c in Sources */,
+				15F2B99223B3499400170676 /* pci_lpc.c in Sources */,
+				15F2B99323B3499400170676 /* pci_uart.c in Sources */,
+				15F2B99423B3499400170676 /* pci_virtio_block.c in Sources */,
+				15F2B99523B3499400170676 /* pci_virtio_net_tap.c in Sources */,
+				15F2B99623B3499400170676 /* pci_virtio_net_vmnet.c in Sources */,
+				15F2B99723B3499400170676 /* pci_virtio_rnd.c in Sources */,
+				15F2B99823B3499400170676 /* pm.c in Sources */,
+				15F2B99923B3499400170676 /* post.c in Sources */,
+				15F2B99A23B3499400170676 /* ps2kbd.c in Sources */,
+				15F2B99B23B3499400170676 /* ps2mouse.c in Sources */,
+				15F2B99C23B3499400170676 /* rfb.c in Sources */,
+				15F2B99D23B3499400170676 /* rtc.c in Sources */,
+				15F2B99E23B3499400170676 /* smbiostbl.c in Sources */,
+				15F2B99F23B3499400170676 /* sockstream.c in Sources */,
+				15F2B9A023B3499400170676 /* task_switch.c in Sources */,
+				15F2B9A123B3499400170676 /* uart_emul.c in Sources */,
+				15F2B9A223B3499400170676 /* vga.c in Sources */,
+				15F2B9A323B3499400170676 /* virtio.c in Sources */,
+				15F2B9A423B3499400170676 /* xhyve.c in Sources */,
+				15F2B9A523B3499400170676 /* xmsr.c in Sources */,
+				15F2B96523B3498000170676 /* fbsd.c in Sources */,
+				15F2B96623B3498000170676 /* kexec.c in Sources */,
+				15F2B96723B3498000170676 /* vmcs.c in Sources */,
+				15F2B96823B3498000170676 /* vmx.c in Sources */,
+				15F2B96923B3498000170676 /* vmx_msr.c in Sources */,
+				15F2B96A23B3498000170676 /* vatpic.c in Sources */,
+				15F2B96B23B3498000170676 /* vatpit.c in Sources */,
+				15F2B96C23B3498000170676 /* vhpet.c in Sources */,
+				15F2B96D23B3498000170676 /* vioapic.c in Sources */,
+				15F2B96E23B3498000170676 /* vlapic.c in Sources */,
+				15F2B96F23B3498000170676 /* vpmtmr.c in Sources */,
+				15F2B97023B3498000170676 /* vrtc.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		15F2B96223B3495100170676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SYSTEM_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/include";
+			};
+			name = Debug;
+		};
+		15F2B96323B3495100170676 /* ASan */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SYSTEM_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/include";
+			};
+			name = ASan;
+		};
+		15F2B96423B3495100170676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SYSTEM_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/include";
+			};
+			name = Release;
+		};
 		3F1934971BF7C0D40099CC46 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3F3FF9E21BF7C5D5004C89A1 /* common_debug.xcconfig */;
 			buildSettings = {
 			};
 			name = Debug;
 		};
 		3F1934981BF7C0D40099CC46 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3F3FF9E01BF7C5D5004C89A1 /* common.xcconfig */;
 			buildSettings = {
-			};
-			name = Release;
-		};
-		3F19349A1BF7C0D40099CC46 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3F3FF9E31BF7C5D5004C89A1 /* xhyve.xcconfig */;
-			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		3F19349B1BF7C0D40099CC46 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3F3FF9E31BF7C5D5004C89A1 /* xhyve.xcconfig */;
-			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
 		3F3FFA931BF7C7B1004C89A1 /* ASan */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3F3FF9E11BF7C5D5004C89A1 /* common_asan.xcconfig */;
 			buildSettings = {
-			};
-			name = ASan;
-		};
-		3F3FFA941BF7C7B1004C89A1 /* ASan */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3F3FF9E31BF7C5D5004C89A1 /* xhyve.xcconfig */;
-			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = ASan;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		15F2B96123B3495100170676 /* Build configuration list for PBXNativeTarget "xhyve" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15F2B96223B3495100170676 /* Debug */,
+				15F2B96323B3495100170676 /* ASan */,
+				15F2B96423B3495100170676 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		3F19348D1BF7C0D40099CC46 /* Build configuration list for PBXProject "xhyve" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3F1934971BF7C0D40099CC46 /* Debug */,
 				3F3FFA931BF7C7B1004C89A1 /* ASan */,
 				3F1934981BF7C0D40099CC46 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3F1934991BF7C0D40099CC46 /* Build configuration list for PBXNativeTarget "xhyve" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3F19349A1BF7C0D40099CC46 /* Debug */,
-				3F3FFA941BF7C7B1004C89A1 /* ASan */,
-				3F19349B1BF7C0D40099CC46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

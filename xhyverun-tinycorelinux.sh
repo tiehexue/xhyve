@@ -1,6 +1,6 @@
 #!/bin/sh
 
-PATH="build/Release:build:$PATH"
+PATH="build/Debug:build:$PATH"
 
 xhyve \
     -A \
